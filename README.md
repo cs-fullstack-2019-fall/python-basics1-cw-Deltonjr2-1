@@ -1,5 +1,6 @@
 # Python_Basics1_cw
 
+1/4 correct + partial credit. Score : 2 points. See basicsw1.py for comments
 
 ### Problem 1:
 Create two variables. One should equal “My name is: “ and the other should equal your actual name. Print the two variables in one print message.

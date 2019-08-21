@@ -15,8 +15,9 @@
 #
 # Ask for two card numbers. If it equals 21 print BLACKJACK!, if it’s greater than 21 print BUST!, if it’s less than 21 print “The total is [THE TOTAL]”
 
-# //1. Ask the user to input their name
+# 1. Ask the user to input their name
 
+# this does not meet the requirement?
 myName = input("My name is ")
 yourName = input("What is your actual name?")
 print(myName + " " + yourName)
@@ -24,7 +25,7 @@ print(myName + " " + yourName)
 # 2. Ask the user to input their extra credit points
 
 userInput1= int(input("enter the extra credit earned "))
-if    userInput1 < 5:
+if  userInput1 < 5:
     print ("That's not enough")
 if userInput1 > 20:
     print("That is too much")
@@ -35,5 +36,6 @@ userInput1 = (input("Enter a password"))
 print("Enter a password")
 userInput2 = (input("Enter your password again"))
 print("Enter your password again" )
-elif (userInput1=userInput2)
+# This should be if NOT elif AND one equal sign is variable assignment NOT comparison
+if (userInput1 == userInput2):
     print("That is correct")
